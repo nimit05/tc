@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "Glacial Indifference Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Glacial Indifference Regular"),
+    url("assets/font/GlacialIndifference-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Glacial Indifference Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Glacial Indifference Bold"),
+    url("assets/font/GlacialIndifference-Bold.woff") format("woff");
+}
+*{
+  box-sizing: border-box;
+}
+body {
+  background-color: #ffffff;
+  color: #000000;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+.section {
+  padding-top: 5rem;
+}
+h1,
+h2,
+h3 {
+  font-family: "Glacial Indifference Regular", sans-serif !important;
+  /* font-weight: 900; */
+  font-style: italic;
+}
+.flex {
+  display: flex;
+}
+* {
+  font-family: "Poppins", sans-serif;
+}
+h2 {
+  text-align: center;
+}
+h1 {
+  text-align: center;
+  font-size: 4rem;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  /* background-color: #fff; */
+  color: white;
+}
+@media screen and (max-width: 749px) {
+  h1 {
+    font-size: 2.7rem;
+  }
+}
+img{
+  display: block;
+}
